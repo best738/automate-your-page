@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Jason Best</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+<!-- This is a HTML comment.-->
+<head>
+  <meta charset="utf-8">
+  <title> Jason's Notes'</title>
+  <link rel="stylesheet" type="text/css" href="jason-style.css">
+</head>
+<!--The <h1> goes up to <h6> with the lower numbers indicating more
+more importance. Makes it look like a bigger bolder
+font to me-->
+<body>
+    <div class="TOC">
+        <h1>Table of Contents</h1>
+        <ol>
+            <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+                <ul>
+                    <li><a href="#lesson-1-1">The Web and HTML</a></li>
+                    <li><a href="#lesson-1-2">Tags and Elements</a></li>
+                    <li><a href="#lesson-1-3">Computers are Stupid</a></li>
+                    <li><a href="#lesson-1-4">Inline and Block Elements</a></li>
+                </ul>
+            </li>
+            <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+                <ul>
+                    <li><a href="#lesson-2-1">Developer Tools</a></li>
+                    <li><a href="#lesson-2-2">Document Object Model</a></li>
+                    <li><a href="#lesson-2-3">Indented HTML and Boxes</a></li>
+                </ul>
+            </li> 
+            <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: CSS Style and HTML Structure</a>
+                <ul>
+                    <li><a href="#lesson-3-1">Redundancy</a></li>
+                    <li><a href="#lesson-3-2">CSS</a></li>
+                </ul>
+            </li>
+            <li class="TOC-lesson"><a href="#lesson-4"> Lesson 4: Programming</a>
+                <ul>
+                    <li><a href="#lesson-4-1">Python</a></li>
+                    <li><a href="#lesson-4-2">Variables and Strings</a></li>
+                    <li><a href="#lesson-4-3">Procedures</a></li>
+                    <li><a href="#lesson-4-4">If and While Statements</a></li>
+                    <li><a href="#lesson-4-5">Lists and For Loops</a></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+	<h1>Important Concepts</h1>
+<!--Adding logical structure with <div>. This puts a box around my sections/lessons-->
+    <div class="lesson">
+    	<h2 id="lesson-1">Lession 1: The Basics of the Web and HTML</h2>
+    	<div class="concept" id="lesson-1-1">
+    		<div class="concept-title">The Web and HTML
+            </div>
+    		<div class="concept-description">
+            <p>
+            	The web is computers that talk to one another. For example, your computer talking to other computers called servers. It's' essentially a collection of HTML (<em>Hypertext Markup Language</em>) documents. Your computer browser makes requests to servers via a protocol called HTTP (<em>>Hypertext Transfer Protocol</em>).<a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496">This video</a> discusses Web components. HTML contains text (what you see) and markup (how it looks).
+            </p>
+            </div>
+        </div>
+        <div class="concept" id="lesson-1-2">
+        	<div class="concept-title">Tags and Elements
+            </div>
+        	<div class="concept-description">
+            <p>
+            	HTML documents are made up of elements, which consist of an opening and closing tag. Examples of tags and elements can be seen in my code in making this document.Check out <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723444">this video</a>.
+            </p>
+            </div>
+        </div>
+        <div class="concept" id="lesson-1-3">
+        	<div class="concept-title">Computers are Stupid
+        	</div>
+            <div class="concept-description">
+            <p>
+            	Computers are very literal and small mistakes can cause major problems. Writing in the correct manner is called correct syntax. By talking to a computer correctly you can tell it anything you want.
+            </p>
+            </div>
+        </div>    
+        <div class="concept" id="lesson-1-4">
+            <div class="concept-title">Inline and Block Elements
+        	</div>
+            <div class="concept-description">
+            <p>
+            	Block elements create an invisible box around content. The p (paragraph) tag/element is an example of a block element. The br (break) tag/element is an example of an inline element.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+    	<h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+    	<div class="concept" id="lesson-2-1">
+            <div class="concept-title">Developer Tools
+    		</div>
+            <div class="concept-description">
+    		<p>
+    			Block elements form invisible boxes with contents inside of them. Developer tools allows the user to see the structure the webpage in the form of boxes.
+    		</p>
+            </div>
+    	</div>
+    	<div class="concept" id="lesson-2-2">
+    		<div class="concept-title">Document Object Model
+    		</div>
+            <div class="concept-description">
+    		<p>
+    			Document Object Model (DOM) is the tree like structure of HTML. HTML elements can have <b>other</b> elements inside of them! In other words, boxes can have boxes upon boxes within them.
+    		</p>
+            </div>
+    	</div>
+        <div class="concept" id="lesson-2-3">
+            <div class="concept-title">Indented HTML and Boxes
+            </div>
+            <div class="concept-description">
+            <p>
+                The more indented an element is the more deeply nested it is in its corresponding box. I can see this in how sublime "manages" the code. Sublime also creates vertical lines to help me line up the opening and closing of elements. Sublime is one of many text editors.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-3">Lesson 3: CSS Style and HTML Structure</h2>
+        <div class="concept" id="lesson-3-1">
+            <div class="concept-title">Redundancy
+            </div>
+            <div class="concept-description">
+            <p>
+                Redundancy is problamatic in that it leads to errors because changes have to be made in multiple places. An example is applying style (CSS) to a webpage. By apply <em>divs</em> and assigning classes, styling can be applied in one location.
+            </p>
+            </div>
+        </div>
+        <div class="concept" id="lesson-3-2">
+            <div class="concept-title">CSS
+            </div>
+            <div class="concept-description">
+            <p>
+                CSS stands for Cascading Style Sheets. CSS gives the HTML elements style like borders and padding. CSS can be added by writing it into the HTML (either in the head or inline) or linking the HTML to a separate CSS file. Writing it inline is generally a bad idea due to redunancy issues that cause errors.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-4">Lesson 4: Python Programming</h2>
+        <div class="concept" id="lesson-4-1">
+            <div class="concept-title">Python
+            </div>
+            <div class="concept-description">
+            <p>
+                Python is a programming language to tell the computer what to do.
+                Python code is input into another program (Python interpreter) that follows instructions in your code and it does that by following instruction in its own code. This is all done through you web browser. It uses very specific grammer rules, although much more specific than human language. This allows for unambiguous interpretations. More about Python grammer can be found in this <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3527838955/e-48704311/m-48736065">video.</a>
+            </p>
+            </div>
+        </div>
+        <div class="concept" id="lesson-4-2">
+            <div class="concept-title">Variables and Strings
+            </div>
+            <div class="concept-description">
+                <p>
+                   Variables give names to values. In other words it's an assignment statement. An example would be <span class="code">this variable = 4</span>. The equals (=) sign does not mean equal as in mathematics, but rather means to take the value of. Variables improve code readability, give programmers a way to store values, and give a way to change a value easily. A string is a sequence of characters. For example <span class="code">"4" + "6"</span> would result in <span class="code">"46"</span>, not <span class="code">"10"</span>. Note the <span class="code">+</span> concatenates.
+                </p>
+            </div>
+        </div>
+        <div class="concept" id="lesson-4-3">
+            <div class="concept-title">Procedures
+            </div>
+            <div class="concept-description">
+                <p>
+                    Procedures are also called functions. Procedures take an input(s), does something with the input, then produces and output. Procedures start with a line of code with the keyword <span class="code">def</span> and a function name followed by parameters in parentheses. Then we write what to do with input. Here is an example:
+                </p>
+                    <div class="code-block">
+                        <p>
+                            def square(x): <br>
+                            <span class="indent">answer = x * x</span><br>
+                            <span class="indent">return answer</span>
+                        </p>
+                    </div>
+                        <p>
+                            To make use of the procedure we use:
+                        </p> 
+                    <div class="code-block">print square (5)<br>
+                        >>>25
+                    </div>
+                    <div>
+                        Note that if <span class="code">return</span> is not used, then Python will return a <span class="code">None</span>.
+                    </div>
+            </div>
+        </div>
+        <div class="concept" id="lesson-4-4">
+            <div class="concept-title">If and While Statements
+            </div>
+            <div class="concept-description">
+                <p>
+                  A Boolean Value outputs a True or False. For example,<span class="code"> print 2 > 3</span> would produce an output of False. Other operators are <span class="code">!=</span> for not equal and <span class="code">==</span> is equal to. <span class="code">if</span> statements are used to make comparisons. Here's an example:
+                </p>
+                <div class="code-block">
+                    <p>
+                        def bigger (x,y):<br>
+                        <span class="indent">if x > y:</span><br>
+                        <span class="indent-2">return x</span><br>
+                        <span class="indent">else:</span><br>
+                        <span class="indent-2">return y</span><br>
+                    </p>
+                </div>
+                    <p>
+                    <span class="code">While</span> statements create loops and don't stop running until a certain event occurs. Here's an example:
+                    </p>
+                        <div class="code-block">
+                            <p>
+                                x = 0<br>
+                                while x > 10:<br>
+                                <span class="indent"> print i</span><br>
+                                <span class="indent"> x = x - 1</span><br>
+                            </p>
+                        </div>  
+            </div>
+        </div>      
+        <div class="concept" id="lesson-4-5">
+            <div class="concept-title">Lists and For Loops
+            </div>
+            <div class="concept-description">
+                <p>
+                    Lists can can contain strings, numbers, numbers and strings, and other lists. Lists can be mutated, meaning we can change its value after it is created. We can also append to a list, which adds an element to the end of the loop. The plus (+) operator essentially concatentes two list to create a new list. For loops loop through the elements in the list. Length (len) determines the number of characters in a string or the number of elements in a list.
+                </p>
+            </div> 
+        </div>      
+    </div>        
+</body> 
+</html>
+
+</body>
+
+</html>
